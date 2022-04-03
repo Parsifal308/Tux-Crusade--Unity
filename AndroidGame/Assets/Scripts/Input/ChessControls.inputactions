@@ -1,0 +1,82 @@
+{
+    "name": "ChessControls",
+    "maps": [
+        {
+            "name": "MenuNav",
+            "id": "2c15383f-a30a-472b-be8d-fc9bcfa1200b",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "a863e0bb-c38b-481e-8b67-f57c24c502f2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "26724116-ce55-47a2-b606-70244045be44",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "MouseInput",
+            "id": "c1f8a7e5-8a7a-490d-bc45-1703750f4e13",
+            "actions": [
+                {
+                    "name": "MouseDelta",
+                    "type": "Value",
+                    "id": "e1100c0b-dffb-446b-bcb4-5d51c562fa24",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MousePosition",
+                    "type": "Value",
+                    "id": "ac8d27d2-5f3e-42cb-946b-cba4c8c6020c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b6569eb6-9790-4ee5-9e9b-f201df114287",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseDelta",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "facf133a-a943-42ba-b9d4-9d1028705456",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

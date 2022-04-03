@@ -1,0 +1,191 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.AndroidGame"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-67
+21-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:22-64
+22
+23    <uses-feature
+23-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-18:36
+24        android:name="android.hardware.touchscreen"
+24-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:9-52
+25        android:required="false" />
+25-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-33
+26    <uses-feature
+26-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-21:36
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:9-63
+28        android:required="false" />
+28-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-33
+29    <uses-feature
+29-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-24:36
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-72
+31        android:required="false" />
+31-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-33
+32
+33    <uses-permission android:name="android.permission.CAMERA" />
+33-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:5-65
+33-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:22-62
+34
+35    <uses-feature
+35-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:5-30:35
+36        android:name="android.hardware.camera.ar"
+36-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-50
+37        android:required="true" />
+37-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-32
+38    <uses-feature
+38-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:5-33:35
+39        android:name="com.google.ar.core.depth"
+39-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:9-48
+40        android:required="true" />
+40-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-32
+41
+42    <queries>
+42-->[:arcore_client:] C:\Users\Guillermo Marinero\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:29:5-31:15
+43        <package android:name="com.google.ar.core" />
+43-->[:arcore_client:] C:\Users\Guillermo Marinero\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:30:9-54
+43-->[:arcore_client:] C:\Users\Guillermo Marinero\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:30:18-51
+44    </queries>
+45
+46    <application
+46-->D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+47        android:extractNativeLibs="true"
+47-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:18-50
+48        android:icon="@mipmap/app_icon"
+48-->D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+49        android:label="@string/app_name" >
+49-->D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+50        <activity
+50-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:9-56:20
+51            android:name="com.unity3d.player.UnityPlayerActivity"
+51-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-66
+52            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+52-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-194
+53            android:hardwareAccelerated="false"
+53-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-48
+54            android:launchMode="singleTask"
+54-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-44
+55            android:resizeableActivity="false"
+55-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-47
+56            android:screenOrientation="fullSensor"
+56-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-51
+57            android:theme="@style/UnityThemeSelector" >
+57-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:13-54
+58            <intent-filter>
+58-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:13-48:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:17-69
+59-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-77
+61-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:27-74
+62            </intent-filter>
+63
+64            <meta-data
+64-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:13-52:40
+65                android:name="unityplayer.UnityActivity"
+65-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:17-57
+66                android:value="true" />
+66-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:17-37
+67            <meta-data
+67-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:13-55:40
+68                android:name="android.notch_support"
+68-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:17-53
+69                android:value="true" />
+69-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:17-37
+70        </activity>
+71
+72        <meta-data
+72-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:9-60:33
+73            android:name="unity.splash-mode"
+73-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:13-45
+74            android:value="0" />
+74-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-30
+75        <meta-data
+75-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:9-63:36
+76            android:name="unity.splash-enable"
+76-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-47
+77            android:value="True" />
+77-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-33
+78        <meta-data
+78-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:9-66:36
+79            android:name="unity.launch-fullscreen"
+79-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-51
+80            android:value="True" />
+80-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-33
+81        <meta-data
+81-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:9-69:37
+82            android:name="unity.allow-resizable-window"
+82-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-56
+83            android:value="False" />
+83-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-34
+84        <meta-data
+84-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:9-72:50
+85            android:name="notch.config"
+85-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-40
+86            android:value="portrait|landscape" />
+86-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:13-47
+87        <meta-data
+87-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:9-75:36
+88            android:name="unityplayer.SkipPermissionsDialog"
+88-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:13-61
+89            android:value="true" />
+89-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:13-33
+90        <meta-data
+90-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:9-78:40
+91            android:name="com.google.ar.core"
+91-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:13-46
+92            android:value="required" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+92-->[:unityLibrary] D:\Proyectos\AndroidGame\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:13-37
+93        <meta-data
+93-->[:arcore_client:] C:\Users\Guillermo Marinero\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:36:9-38:41
+94            android:name="com.google.ar.core.min_apk_version"
+94-->[:arcore_client:] C:\Users\Guillermo Marinero\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:37:13-62
+95            android:value="210910000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+95-->[:arcore_client:] C:\Users\Guillermo Marinero\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:38:13-38
+96        <activity
+96-->[:arcore_client:] C:\Users\Guillermo Marinero\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:40:9-46:80
+97            android:name="com.google.ar.core.InstallActivity"
+97-->[:arcore_client:] C:\Users\Guillermo Marinero\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:41:13-62
+98            android:configChanges="keyboardHidden|orientation|screenSize"
+98-->[:arcore_client:] C:\Users\Guillermo Marinero\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:42:13-74
+99            android:excludeFromRecents="true"
+99-->[:arcore_client:] C:\Users\Guillermo Marinero\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:43:13-46
+100            android:exported="false"
+100-->[:arcore_client:] C:\Users\Guillermo Marinero\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:44:13-37
+101            android:launchMode="singleTop"
+101-->[:arcore_client:] C:\Users\Guillermo Marinero\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:45:13-43
+102            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+102-->[:arcore_client:] C:\Users\Guillermo Marinero\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:46:13-77
+103    </application>
+104
+105</manifest>

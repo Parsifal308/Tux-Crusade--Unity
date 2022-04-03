@@ -1,0 +1,4 @@
+#Mon Mar 14 15:47:27 ART 2022
+base.0=D\:\\Proyectos\\AndroidGame\\AndroidGame\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
