@@ -15,7 +15,7 @@ MonoBehaviour:
   gameType: 0
   pawnPrefab: {fileID: 1899003721771328568, guid: 92da97430df2fff41950cf290dca6130, type: 3}
   rookPrefab: {fileID: 8334403249156359026, guid: 24dcd1a26666c8249b2b4f4fd55367bf, type: 3}
-  knightPrefab: {fileID: 0}
-  bishopPrefab: {fileID: 0}
-  queenPrefab: {fileID: 0}
-  kingPrefab: {fileID: 0}
+  knightPrefab: {fileID: 4078169066279946945, guid: b8b4fed55440ba04bbe8fbff91fc1ae4, type: 3}
+  bishopPrefab: {fileID: 5458499237538418753, guid: 17c80d3c9cdddf3459f266a7af7cc651, type: 3}
+  queenPrefab: {fileID: 6179074081546581699, guid: a012230c6cb029249b2c6db3a954f458, type: 3}
+  kingPrefab: {fileID: 828857271864288945, guid: 55fcd008469d30b43946890efe192304, type: 3}

@@ -1,0 +1,146 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-52
+12-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-49
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-65
+14-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:20-62
+15
+16    <uses-feature
+16-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-88
+17        android:name="android.hardware.touchscreen"
+17-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-60
+18        android:required="false" />
+18-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:61-85
+19    <uses-feature
+19-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-99
+20        android:name="android.hardware.touchscreen.multitouch"
+20-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-71
+21        android:required="false" />
+21-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:72-96
+22    <uses-feature
+22-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-108
+23        android:name="android.hardware.touchscreen.multitouch.distinct"
+23-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-80
+24        android:required="false" />
+24-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:81-105
+25
+26    <uses-permission android:name="android.permission.CAMERA" />
+26-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-63
+26-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:20-60
+27
+28    <uses-feature
+28-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-85
+29        android:name="android.hardware.camera.ar"
+29-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-58
+30        android:required="true" />
+30-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:59-82
+31    <uses-feature
+31-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-83
+32        android:name="com.google.ar.core.depth"
+32-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-56
+33        android:required="true" />
+33-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:57-80
+34
+35    <application android:extractNativeLibs="true" >
+35-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-19:17
+35-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+36        <activity
+36-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+37            android:name="com.unity3d.player.UnityPlayerActivity"
+37-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+38            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+38-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:182-363
+39            android:hardwareAccelerated="false"
+39-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:399-434
+40            android:launchMode="singleTask"
+40-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:150-181
+41            android:resizeableActivity="false"
+41-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:364-398
+42            android:screenOrientation="fullSensor"
+42-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-149
+43            android:theme="@style/UnityThemeSelector" >
+43-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+44            <intent-filter>
+44-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+45-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+47-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+48            </intent-filter>
+49
+50            <meta-data
+50-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+51                android:name="unityplayer.UnityActivity"
+51-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+52                android:value="true" />
+52-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+53            <meta-data
+53-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+54                android:name="android.notch_support"
+54-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+55                android:value="true" />
+55-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+56        </activity>
+57
+58        <meta-data
+58-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+59            android:name="unity.splash-mode"
+59-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+60            android:value="0" />
+60-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+61        <meta-data
+61-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+62            android:name="unity.splash-enable"
+62-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+63            android:value="True" />
+63-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+64        <meta-data
+64-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+65            android:name="unity.launch-fullscreen"
+65-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+66            android:value="True" />
+66-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+67        <meta-data
+67-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+68            android:name="unity.allow-resizable-window"
+68-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+69            android:value="False" />
+69-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+70        <meta-data
+70-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+71            android:name="notch.config"
+71-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+72            android:value="portrait|landscape" />
+72-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+73        <meta-data
+73-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-88
+74            android:name="unityplayer.SkipPermissionsDialog"
+74-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-64
+75            android:value="true" />
+75-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:65-85
+76        <meta-data
+76-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-77
+77            android:name="com.google.ar.core"
+77-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-49
+78            android:value="required" />
+78-->D:\Proyectos\Tux-Crusade--Unity\AndroidGame\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:50-74
+79    </application>
+80
+81</manifest>

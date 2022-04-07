@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Board : MonoBehaviour,I_Board
 {
+    [SerializeField] GameManager manager;
     [SerializeField] private SO_Board boardData;
     [SerializeField] private GameObject squarePrefab;
     [SerializeField] private Material squareWhite;
@@ -15,6 +16,7 @@ public class Board : MonoBehaviour,I_Board
     public Square[,] GetSquares { get { return squares; } }
 
     private void Awake()    {
+        manager = GetComponentInParent<GameManager>();
         try{    
             squares = new Square[boardData.XSize, boardData.YSize];
         }catch(Exception ex)        {

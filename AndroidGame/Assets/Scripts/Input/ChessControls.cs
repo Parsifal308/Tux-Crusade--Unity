@@ -98,6 +98,94 @@ public partial class @ChessControls : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""MobileControls"",
+            ""id"": ""e42bcd5a-c934-4f25-934a-21b7e877b6a9"",
+            ""actions"": [
+                {
+                    ""name"": ""LeftStick"",
+                    ""type"": ""Value"",
+                    ""id"": ""5a23b57f-674d-4fbe-b06b-519d208628db"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""RightStick"",
+                    ""type"": ""Value"",
+                    ""id"": ""fbb88ecb-559a-4372-8793-532e6158a929"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""TouchDelta"",
+                    ""type"": ""Value"",
+                    ""id"": ""55862c58-3b27-496f-9937-45fce0b35d75"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""TouchPosition"",
+                    ""type"": ""Value"",
+                    ""id"": ""fec8263d-a984-40d2-b6f3-60056b63e7ca"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""fe53130e-83de-4dff-9f0e-96a77f5426a5"",
+                    ""path"": ""<Gamepad>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""LeftStick"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""75d4d72b-6b66-4cbb-8178-9e6707c44df1"",
+                    ""path"": ""<Gamepad>/rightStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""RightStick"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""20aac8f9-fd9c-40da-a935-f9cb933e704e"",
+                    ""path"": ""<Touchscreen>/primaryTouch/delta"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TouchDelta"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""498b5598-ce3c-45d5-819b-ae3945a10fd0"",
+                    ""path"": ""<Touchscreen>/primaryTouch/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TouchPosition"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -109,6 +197,12 @@ public partial class @ChessControls : IInputActionCollection2, IDisposable
         m_MouseInput = asset.FindActionMap("MouseInput", throwIfNotFound: true);
         m_MouseInput_MouseDelta = m_MouseInput.FindAction("MouseDelta", throwIfNotFound: true);
         m_MouseInput_MousePosition = m_MouseInput.FindAction("MousePosition", throwIfNotFound: true);
+        // MobileControls
+        m_MobileControls = asset.FindActionMap("MobileControls", throwIfNotFound: true);
+        m_MobileControls_LeftStick = m_MobileControls.FindAction("LeftStick", throwIfNotFound: true);
+        m_MobileControls_RightStick = m_MobileControls.FindAction("RightStick", throwIfNotFound: true);
+        m_MobileControls_TouchDelta = m_MobileControls.FindAction("TouchDelta", throwIfNotFound: true);
+        m_MobileControls_TouchPosition = m_MobileControls.FindAction("TouchPosition", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -238,6 +332,63 @@ public partial class @ChessControls : IInputActionCollection2, IDisposable
         }
     }
     public MouseInputActions @MouseInput => new MouseInputActions(this);
+
+    // MobileControls
+    private readonly InputActionMap m_MobileControls;
+    private IMobileControlsActions m_MobileControlsActionsCallbackInterface;
+    private readonly InputAction m_MobileControls_LeftStick;
+    private readonly InputAction m_MobileControls_RightStick;
+    private readonly InputAction m_MobileControls_TouchDelta;
+    private readonly InputAction m_MobileControls_TouchPosition;
+    public struct MobileControlsActions
+    {
+        private @ChessControls m_Wrapper;
+        public MobileControlsActions(@ChessControls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @LeftStick => m_Wrapper.m_MobileControls_LeftStick;
+        public InputAction @RightStick => m_Wrapper.m_MobileControls_RightStick;
+        public InputAction @TouchDelta => m_Wrapper.m_MobileControls_TouchDelta;
+        public InputAction @TouchPosition => m_Wrapper.m_MobileControls_TouchPosition;
+        public InputActionMap Get() { return m_Wrapper.m_MobileControls; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(MobileControlsActions set) { return set.Get(); }
+        public void SetCallbacks(IMobileControlsActions instance)
+        {
+            if (m_Wrapper.m_MobileControlsActionsCallbackInterface != null)
+            {
+                @LeftStick.started -= m_Wrapper.m_MobileControlsActionsCallbackInterface.OnLeftStick;
+                @LeftStick.performed -= m_Wrapper.m_MobileControlsActionsCallbackInterface.OnLeftStick;
+                @LeftStick.canceled -= m_Wrapper.m_MobileControlsActionsCallbackInterface.OnLeftStick;
+                @RightStick.started -= m_Wrapper.m_MobileControlsActionsCallbackInterface.OnRightStick;
+                @RightStick.performed -= m_Wrapper.m_MobileControlsActionsCallbackInterface.OnRightStick;
+                @RightStick.canceled -= m_Wrapper.m_MobileControlsActionsCallbackInterface.OnRightStick;
+                @TouchDelta.started -= m_Wrapper.m_MobileControlsActionsCallbackInterface.OnTouchDelta;
+                @TouchDelta.performed -= m_Wrapper.m_MobileControlsActionsCallbackInterface.OnTouchDelta;
+                @TouchDelta.canceled -= m_Wrapper.m_MobileControlsActionsCallbackInterface.OnTouchDelta;
+                @TouchPosition.started -= m_Wrapper.m_MobileControlsActionsCallbackInterface.OnTouchPosition;
+                @TouchPosition.performed -= m_Wrapper.m_MobileControlsActionsCallbackInterface.OnTouchPosition;
+                @TouchPosition.canceled -= m_Wrapper.m_MobileControlsActionsCallbackInterface.OnTouchPosition;
+            }
+            m_Wrapper.m_MobileControlsActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @LeftStick.started += instance.OnLeftStick;
+                @LeftStick.performed += instance.OnLeftStick;
+                @LeftStick.canceled += instance.OnLeftStick;
+                @RightStick.started += instance.OnRightStick;
+                @RightStick.performed += instance.OnRightStick;
+                @RightStick.canceled += instance.OnRightStick;
+                @TouchDelta.started += instance.OnTouchDelta;
+                @TouchDelta.performed += instance.OnTouchDelta;
+                @TouchDelta.canceled += instance.OnTouchDelta;
+                @TouchPosition.started += instance.OnTouchPosition;
+                @TouchPosition.performed += instance.OnTouchPosition;
+                @TouchPosition.canceled += instance.OnTouchPosition;
+            }
+        }
+    }
+    public MobileControlsActions @MobileControls => new MobileControlsActions(this);
     public interface IMenuNavActions
     {
         void OnNewaction(InputAction.CallbackContext context);
@@ -246,5 +397,12 @@ public partial class @ChessControls : IInputActionCollection2, IDisposable
     {
         void OnMouseDelta(InputAction.CallbackContext context);
         void OnMousePosition(InputAction.CallbackContext context);
+    }
+    public interface IMobileControlsActions
+    {
+        void OnLeftStick(InputAction.CallbackContext context);
+        void OnRightStick(InputAction.CallbackContext context);
+        void OnTouchDelta(InputAction.CallbackContext context);
+        void OnTouchPosition(InputAction.CallbackContext context);
     }
 }

@@ -76,6 +76,94 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "MobileControls",
+            "id": "e42bcd5a-c934-4f25-934a-21b7e877b6a9",
+            "actions": [
+                {
+                    "name": "LeftStick",
+                    "type": "Value",
+                    "id": "5a23b57f-674d-4fbe-b06b-519d208628db",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightStick",
+                    "type": "Value",
+                    "id": "fbb88ecb-559a-4372-8793-532e6158a929",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TouchDelta",
+                    "type": "Value",
+                    "id": "55862c58-3b27-496f-9937-45fce0b35d75",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TouchPosition",
+                    "type": "Value",
+                    "id": "fec8263d-a984-40d2-b6f3-60056b63e7ca",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fe53130e-83de-4dff-9f0e-96a77f5426a5",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftStick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "75d4d72b-6b66-4cbb-8178-9e6707c44df1",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightStick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "20aac8f9-fd9c-40da-a935-f9cb933e704e",
+                    "path": "<Touchscreen>/primaryTouch/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchDelta",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "498b5598-ce3c-45d5-819b-ae3945a10fd0",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
